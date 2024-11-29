@@ -1,0 +1,22 @@
+<div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
+    <div class="row gx-0 align-items-center">
+        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+            <div class="d-flex flex-wrap">
+                <a href="#" class="text-muted small me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Comunidad Ayo Ayo</a>
+                <a href="#" class="text-muted small me-0"><i class="fas fa-envelope text-primary me-2"></i>dediazjorge1@gmail.com</a>
+            </div>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end">
+            <div class="d-inline-flex align-items-center" style="height: 45px;">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fa fa-home text-primary me-2"></i> Monitoreo Unidad de Riesgo</small></a>
+                    <div class="dropdown-menu rounded">
+                        <a href="{% url "login" %}" class="dropdown-item"><i class="fas fa-sign-in-alt me-2"></i> Ingresar</a>
+                        <a href="{% url "registrarVecinos" %}" class="dropdown-item"><i class="fas fa-paper-plane me-2"></i> Solicitud de Atención</a>
+                        <a href="{% url "index" %}" class="dropdown-item"><i class="fas fa-home me-2"></i> Volver a Inicio</a>                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,257 @@
+{% extends 'pagina/base.html' %}
+{% block content %}
+{% load static %}
+<div class="header-carousel owl-carousel">
+    <div class="header-carousel-item">
+        <video class="img-fluid w-100" autoplay loop muted>
+            <source src="{% static 'assets/pag/img/mundo.mp4' %}" type="video/mp4">
+        </video>
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row gy-0 gx-5">
+                    <div class="col-lg-0 col-xl-5"></div>
+                    <div class="col-xl-7 animated fadeInLeft">
+                        <div class="text-sm-center text-md-end">
+                            <h4 class="text-primary text-uppercase fw-bold mb-4">BIENVENIDO</h4>
+                            <h2 class="display-4 text-uppercase text-white mb-4">INFRAESTRUCTURA DE DATOS ESPACIALES</h2>
+                            <h2 class="display-4 text-uppercase text-white mb-4">COMUNIDAD AYO AYO</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-carousel-item">
+        <video class="img-fluid w-100" autoplay loop muted>
+            <source src="{% static 'assets/pag/img/mundo.mp4' %}" type="video/mp4">
+        </video>
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-12 animated fadeInUp">
+                        <div class="text-center">
+                            <h4 class="text-primary text-uppercase fw-bold mb-4">BIENVENIDO</h4>
+                            <h1 class="display-4 text-uppercase text-white mb-4">INFRAESTRUCTURA DE DATOS ESPACIALES</h1>
+                            </br>
+                            <h2 class="display-4 text-uppercase text-white mb-4">COMUNIDAD AYO AYO</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->
+</div>
+<!-- Navbar & Hero End -->
+
+
+<!-- Abvout Start -->
+<div class="container-fluid about py-5">
+<div class="container py-5">
+    <div class="row g-5 align-items-center">
+        <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+            <div>
+                <h4 class="text-primary">(IDE)</h4>
+                <h1 class="display-5 mb-4">Infraestructura de Datos Espaciales</h1>
+                <p class="mb-4">Es un conjunto de herramientas, estándares, políticas, tecnologías y prácticas que facilitan la recopilación, almacenamiento, gestión, distribución y análisis de datos geoespaciales.
+                </p>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-6">
+                        <div class="d-flex">
+                            <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
+                            <div class="ms-4">
+                                <h4>AYO AYO</h4>
+                                <p>Ayo Ayo es una localidad y municipio de Bolivia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-6">
+                        <div class="d-flex">
+                            <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
+                            <div class="ms-4">
+                                <h4>UBICACIÓN</h4>
+                                <p>Ubicado en las tierras altas del país. Administrativamente forma parte de la provincia de Aroma en el departamento de La Paz.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="bg-primary rounded position-relative overflow-hidden">
+                <img src="{% static 'assets/pag/img/mapa-dos.jpg' %}" class="img-fluid rounded w-100" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- About End -->
+    <!-- Features Start -->
+<div class="container-fluid feature pb-5">
+<div class="container pb-5">
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="feature-item p-4">
+                <div class="feature-icon p-4 mb-4">
+                    <a href="#"><i class="fas fa-chart-line fa-4x text-primary"></i></a>
+                </div>
+                <a href="#"><h4>Geovisor</h4></a>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="feature-item p-4">
+                <div class="feature-icon p-4 mb-4">
+                    <a href="#"><i class="fas fa-university fa-4x text-primary"></i></a>
+                </div>
+                <a href="#"><h4>Cátalogo</h4></a>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="feature-item p-4">
+                <div class="feature-icon p-4 mb-4">
+                    <a href="#"><i class="fas fa-file-alt fa-4x text-primary"></i></a>
+                </div>
+                <a href="#"><h4>Servicios</h4></a>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="feature-item p-4">
+                <div class="feature-icon p-4 mb-4">
+                    <a href="#"><i class="fas fa-hand-holding-usd fa-4x text-primary"></i></a>
+                </div>
+                <a href="#"><h4>Unidad de Riesgo</h4></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Features End -->
+<!-- Services Start -->
+<div class="container-fluid service pb-5">
+<div class="container pb-5">
+    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+        <h4 class="text-primary">HISTORIA</h4>
+        <h1 class="display-5 mb-4">MUNICIPIO AYO AYO</h1>
+        <p class="mb-0">El 15 de junio de 2004, el alcalde municipal de Ayo Ayo Benjamin Altamirano fue brutalmente golpeado, asesinado y quemado por comunarios del lugar, según el hecho, esto se debió por supuesta corrupción municipal que nunca fue demostrada.
+        </p>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-item">
+                <div class="service-img">
+                    <img src="{% static 'assets/pag/img/iglesia.jpg' %}" class="img-fluid rounded-top w-100" alt="Image">
+                </div>
+                <div class="rounded-bottom p-4">
+                    <a href="https://es.wikipedia.org/wiki/Ayo_Ayo" class="h4 d-inline-block mb-4"> Iglesia Colonial de Ayo Ayo - La Paz</a>
+                    <p class="mb-4">Iglesia Colonial de Ayo Ayo. Este convento fué construido durante la colonia posiblemente sobre una “Huaca” andina, su edificación fué restaurada en diferentes épocas.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://es.wikipedia.org/wiki/Ayo_Ayo">Saber más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="service-item">
+                <div class="service-img">
+                    <img src="{% static 'assets/pag/img/tupac.jpg' %}" class="img-fluid rounded-top w-100" alt="Image">
+                </div>
+                <div class="rounded-bottom p-4">
+                    <a href="https://es.wikipedia.org/wiki/T%C3%BApac_Katari" class="h4 d-inline-block mb-4">Túpac Katari</a>
+                    <p class="mb-4">
+                        Nació en el municipio de Ayo Ayo, en la Subcentral Sullcavi, en la provincia Aroma de La Paz, el 9 de enero de 1750. 
+                        Túpac Katari, cuyo nombre real era Julián Apaza Nina, fue un líder indígena de origen aymara. 
+                        
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://es.wikipedia.org/wiki/T%C3%BApac_Katari">Saber más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item">
+                <div class="service-img">
+                    <img src="{% static 'assets/pag/img/activi.jpg' %}" class="img-fluid rounded-top w-100" alt="Image">
+                </div>
+                <div class="rounded-bottom p-4">
+                    <a href="https://www.educa.com.bo/geografia/ayo-ayo-municipio-de-aroma" class="h4 d-inline-block mb-4">¿Cuáles son las actividades?</a>
+                    <p class="mb-4">El Gobierno municipal promueve actividades en apoyo, primero, a la ganadería, de la cual se obtiene carne y leche vacuna; segundo, a la producción de cultivos.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://www.educa.com.bo/geografia/ayo-ayo-municipio-de-aroma">Saber más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Services End -->
+<!-- Team Start -->
+<div class="container-fluid team pb-5">
+<div class="container pb-5">
+    <!-- Centrado del encabezado -->
+    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+        <h4 class="text-primary">Equipo DEV</h4>
+        <h1 class="display-5 mb-4">Desarrolladores</h1>
+    </div>
+    
+    <!-- Centrado de las tarjetas (fila) -->
+    <div class="row g-4 justify-content-center">
+        <!-- Tarjeta 1 -->
+        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="{% static 'assets/pag/img/team-1.jpg' %}" class="img-fluid" alt="">
+                </div>
+                <div class="team-title">
+                    <h4 class="mb-0">Luis Diaz</h4>
+                    <p class="mb-0">Estudiante</p>
+                </div>
+                <div class="team-icon">
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="{% static 'assets/pag/img/team-3.jpg' %}" class="img-fluid" alt="">
+                </div>
+                <div class="team-title">
+                    <h4 class="mb-0">Enrique Flores</h4>
+                    <p class="mb-0">Ingeniero</p>
+                </div>
+                <div class="team-icon">
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="{% static 'assets/pag/img/team-4.jpg' %}" class="img-fluid" alt="">
+                </div>
+                <div class="team-title">
+                    <h4 class="mb-0">Mariela Quispe</h4>
+                    <p class="mb-0">Estudiante</p>
+                </div>
+                <div class="team-icon">
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>     
+<!-- Team End -->
+{% endblock content %}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}  
+<!-- Mirrored from themewagon.github.io/stocker/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Nov 2024 15:10:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+{% include "pagina/includes/head.html" %}
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        {% include "pagina/includes/topbar.html" %}
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            {% include "pagina/includes/nav.html" %}
+
+            <!-- Carousel Start -->
+            {% block content %}{% endblock content %}
+            
+        
+        <!-- Copyright Start -->
+        {% include "pagina/includes/footer.html" %}
+        <!-- Copyright End -->
+        {% include "pagina/includes/scripts.html" %}
+    </body>
+
+
+<!-- Mirrored from themewagon.github.io/stocker/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Nov 2024 15:10:32 GMT -->
+</html>
